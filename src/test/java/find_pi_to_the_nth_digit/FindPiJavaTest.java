@@ -20,7 +20,7 @@ public class FindPiJavaTest {
 
     @Test
     public void findNthDigitOfPIJava() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 15; i++) {
             int expectedResult = getNthPiDigitFromConstant(i);
             int result = findPiJava.findNthDigitOfPI(i);
 
@@ -31,7 +31,7 @@ public class FindPiJavaTest {
 
     @Test
     public void findNthDigitOfPIKotlin() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 15; i++) {
             int expectedResult = getNthPiDigitFromConstant(i);
             int result = findPiKotlin.findNthDigitOfPI(i);
 
